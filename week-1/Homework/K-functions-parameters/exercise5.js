@@ -1,5 +1,9 @@
 // Declare your function here
 
-const greeting = createLongGreeting("Daniel", 30);
+function createLongGreeting(name,age){
+  var greeting="Hello, my is "+name+" and I'm "+ age + " years old";
+  return greeting;
+}
 
-console.log(greeting);
+
+console.log(createLongGreeting("Dniel",30));
